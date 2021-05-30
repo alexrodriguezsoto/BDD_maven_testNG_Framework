@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="9682" started-at="2021-05-30T02:06:15Z" finished-at="2021-05-30T02:06:24Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.Runner@d2cc05a]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="9682" started-at="2021-05-30T02:06:15Z" finished-at="2021-05-30T02:06:24Z">
+      <class name="runners.Runner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runners.Runner@d2cc05a]" name="setUp" is-config="true" duration-ms="13" started-at="2021-05-30T02:06:15Z" finished-at="2021-05-30T02:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.Runner@d2cc05a]" name="setUpClass" is-config="true" duration-ms="110" started-at="2021-05-30T02:06:15Z" finished-at="2021-05-30T02:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:runners.Runner@d2cc05a]" name="startTest" is-config="true" duration-ms="2145" started-at="2021-05-30T02:06:15Z" finished-at="2021-05-30T02:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.Runner@d2cc05a]" name="runScenario" duration-ms="7232" started-at="2021-05-30T02:06:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-30T02:06:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["log in functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:runners.Runner@d2cc05a]" name="closeTest" is-config="true" duration-ms="97" started-at="2021-05-30T02:06:24Z" finished-at="2021-05-30T02:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.Runner@d2cc05a]" name="tearDownClass" is-config="true" duration-ms="61" started-at="2021-05-30T02:06:24Z" finished-at="2021-05-30T02:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.Runner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
